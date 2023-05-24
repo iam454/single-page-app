@@ -5,10 +5,10 @@
   "name": "single-page-app",
   "description": "location, history를 이용한 SPA 만들기",
   "version": "1.0.0",
-  "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "dev": "parcel ./index.html"
+    "dev": "parcel ./index.html",
+    "build": "parcel build ./index.html"
   },
   "repository": {
     "type": "git",
