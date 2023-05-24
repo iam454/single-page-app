@@ -1,0 +1,52 @@
+/* nav */
+nav {
+  width: 420px;
+  height: 80px;
+  border: 10px solid blueviolet;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+a {
+  font-size: 30px;
+  position: relative;
+  margin-right: 30px;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a::after {
+  content: " | ";
+  position: absolute;
+  top: 6px;
+  right: -20px;
+}
+nav input {
+  width: 150px;
+  height: 25px;
+}
+
+/* section */
+section {
+  height: 100vh;
+  border: 10px solid;
+  box-sizing: border-box;
+}
+.page1 {
+  color: red;
+}
+.page2 {
+  color: orange;
+}
+.page3 {
+  color: green;
+}
+h1 {
+  padding: 20px;
+  font-size: 40px;
+}
